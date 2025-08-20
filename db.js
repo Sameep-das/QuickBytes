@@ -1,8 +1,8 @@
-const db_details = {
+module.exports = {
   host: "localhost",
   user: "root",
   password: "d@sAyush2110",
   database: "sameep",
 };
 
-export default db_details;
+// export default db_details;

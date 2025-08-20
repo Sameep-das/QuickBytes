@@ -2,7 +2,8 @@ const express = require("express");
 const cors = require("cors");
 const mysql = require("mysql2/promise"); 
 
-import db_details from "db";
+// import db_details from './db.js';
+const db_details = require("./db");
 
 const app = express();
 const PORT = 5000;
